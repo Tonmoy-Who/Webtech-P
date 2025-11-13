@@ -1,0 +1,44 @@
+
+header {
+  position: sticky;     
+  top: 0;               
+  background-color: #406061;
+  color: white;
+  padding: 15px 20px;
+  border-bottom: 5px solid #4b8a3b;
+  z-index: 1000;   
+  text-align: justify;     
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  margin-top: 2px;     
+  padding: 20px;
+}
+
+
+p {
+  margin-bottom: 2px;
+  line-height: 1.6;
+}
+
+.box
+{
+    text-align: justify;
+}
