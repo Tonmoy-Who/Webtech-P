@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+
+    <h1>University Online Admission Form</h1>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required maxlength="50"><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required maxlength="50"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" maxlength="15" required><br><br>
+
+        </fieldset>
+
+        <!-- Academic Information -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="school">Previous School/College:</label>
+            <input type="text" id="school" name="school" required maxlength="100"><br><br>
+
+            <label for="grade">Highest Grade/CGPA:</label>
+            <input type="text" id="grade" name="grade" required maxlength="10"><br><br>
+
+            <label for="course">Preferred Department:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a Department</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="electrical_engineering">Electrical Engineering</option>
+                <option value="mechanical_engineering">Mechanical Engineering</option>
+                <option value="business_administration">Business Administration</option>
+            </select><br><br>
+
+            <label>Interests/Extracurricular Activities:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="Music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="art" name="interests" value="Art">
+            <label for="art">Art</label>
+            <input type="checkbox" id="science_club" name="interests" value="Science Club">
+            <label for="science_club">Science Club</label><br><br>
+
+        </fieldset>
+
+        <!-- Documents Upload -->
+        <fieldset>
+            <legend>Upload Documents</legend>
+
+            <label for="transcript">Academic Transcript:</label>
+            <input type="file" id="transcript" name="transcript" required><br><br>
+
+            <label for="resume">Resume/CV:</label>
+            <input type="file" id="resume" name="resume" required><br><br>
+
+        </fieldset>
+
+        <!-- Form Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
