@@ -1,0 +1,217 @@
+
+form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    
+}
+
+h2 {
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+label {
+    display: inline-block;
+    width: 210px;
+    text-align: right;
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 10px;
+    line-height: 1;
+     font-weight: bold;
+}
+
+span.required {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 250px;
+    height: 16px;
+    padding: 1px 2px;
+    font-size: 10px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+textarea {
+    width: 300px;
+    height: 40px;
+    padding: 1px 2px;
+}
+
+button {
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 116px; 
+}
+
+.form-button:hover {
+    background-color: darkred;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+.group input[name="monthly_amount"] {
+    width: 80px;  
+    
+}
+
+.group input[name="months"] {
+    width: 40px;  
+}
+
+
+small {
+    font-size: 9px;
+    display: block;
+    margin-bottom: 3px;
+}
+
+
+.other-amount {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.other-amount label {
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 10px; 
+     margin-left: 60px; 
+}
+
+
+.main-label {
+    width: 140px;   
+    text-align: right;
+    padding-right: 5px;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;       
+    font-weight: normal;
+}
+
+.contact-options label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.newsletter-stack {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;        
+    font-size: 10px;
+}
+
+.newsletter-stack .main-label {
+    width: 300px;    
+    text-align: left; 
+    padding-right: 5px;
+    font-weight: normal;
+}
+
+.stacked-options {
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;               
+    font-weight: normal;
+}
+
+.stacked-options label {
+    display: flex;
+    align-items: center;    
+    font-weight: normal;
+}
+
+
+.form-buttons {
+    display: flex;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+     justify-content: center; 
+}
+
+.form-buttons button {
+    padding: 4px 6px;
+    font-size: 10px;
+    border-radius: 10;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    line-height: 1;
+    display: block;
+    float: left;
+}
+
+
+.form-buttons button:not(:last-child) {
+    border-radius: 3px  3px;
+    border-right: 1px solid darkred; 
+}
+
+
+.form-buttons button:last-child {
+    border-radius:  3px 3px ;
+}
+
+.form-buttons button:hover {
+    background-color: darkred;
+}
+
+
+.form-buttons button {
+    margin-right: 3px;
+}
+
+small {
+    margin-left: 100px;
+}
+
+.header h5,
+.header .breadcrumb h4 {
+    margin: 0;
+    line-height: 1.2;
+}
