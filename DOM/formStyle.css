@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Very light background */
+    padding: 30px;
+}
+
+/* Main Content Wrapper (Container) */
+.container {
+    max-width: 800px;
+    margin: 40px auto; 
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    font-size: 38px;
+    color: #343a40; 
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 30px; 
+}
+
+h2 {
+    font-size: 28px;
+    color: #495057;
+    margin-top: 30px; 
+    margin-bottom: 15px;
+}
+
+
+#student-form {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    font-size: 18px; 
+}
+
+#student-form label {
+    font-weight: 600;
+    color: #495057;
+}
+
+#student-name {
+    padding: 12px; 
+    border: 1px solid #ced4da; 
+    border-radius: 8px; 
+    flex-grow: 1; 
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#student-name:focus {
+    border-color: #accdf0; 
+    box-shadow: 0 0 0 0.2rem rgba(153, 195, 241, 0.25);
+    outline: none;
+}
+
+
+button {
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px; 
+    font-weight: 500;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#student-form button[type="submit"],
+body > button {
+    background-color: #7db5f2;
+    color: rgb(13, 13, 13);
+    box-shadow: 0 4px 6px rgba(26, 79, 137, 0.3);
+}
+
+#student-form button[type="submit"]:hover,
+body > button:hover {
+    background-color: #0d3864;
+    transform: translateY(-1px);
+}
+
+#student-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.student-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    padding: 15px; 
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+    background-color: #fefefe;
+    border-radius: 6px;
+}
+
+.student-item:last-child {
+    border-bottom: none;
+}
+
+.student-item span {
+    flex-grow: 1; 
+    font-size: 20px; 
+    font-weight: 500;
+    color: #343a40;
+}
+
+
+.btn-edit {
+    background-color: #98c0e9;
+    color: #3406ea;
+    padding: 8px 15px; 
+    font-size: 14px; 
+}
+
+.btn-delete {
+    background-color: #77b0ed; 
+    color: rgb(233, 4, 4);
+    padding: 8px 15px; 
+    font-size: 14px; 
+}
+
+.btn-edit:hover {
+    background-color: #85d4f9;
+}
+
+.btn-delete:hover {
+    background-color: #69cef0;
+}
+
+
+.highlight {
+    background-color: #fff3cd; 
+    border: 2px solid #ffc107; 
+    padding: 15px 10px; 
+    margin: 10px 0; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.4);
+}
+
+
+body > button {
+    margin-top: 20px;
+    display: block;
+    width: 250px;
+    margin-left: auto; 
+    margin-right: auto;
+}
